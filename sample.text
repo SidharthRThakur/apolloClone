@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Apollo24/7</title>
+    <link rel="stylesheet" href="style.css" />
+    <ul class="search-bar">
+      <img src="Capture.png" width="50" alt="" />
+      <input placeholder="Select addresss" />
+      <label for="detect">📍</label>
+      <select id="detect" required>
+        <option value="" disabled selected>Select location</option>
+      </select>
+      <input
+        type="text"
+        placeholder="Search Doctors, Specialities, Conditions etc."
+      />
+      <button><a href="#">Log in</a></button>
+    </ul>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <hr />
+    <nav>
+      <section>
+        <ul>
+          <a href="#buy_medicine">Buy medicine</a>
+          <a href="#find_Doctors">Expertise</a>
+          <a href="#lab_test">Projects</a>
+          <a href="#cirlce_memberships">Experience</a>
+          <a href="#health_record">Education</a>
+          <a href="#diabetes_reversal">Certification</a>
+          <a href="#buy_insurance">Open To</a>
+        </ul>
+      </section>
+    </nav>
+    <!-- About Section -->
+    <div>
+      <h1>Consult General Physicians Online - Internal Medicine Specialists</h1>
+    </div>
+    <section id="doc">
+      <ul id="doctors-container">
+        <!-- Doctor cards inserted dynamically here -->
+      </ul>
+    </section>
+
+    <hr />
+    <hr />
+    <!-- Contact Section -->
+    <div>
+      <section id="contact">
+        copyright
+        <p>Email: sidharthrthakur@gmail.com</p>
+        <p>Phone: 9459858802</p>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- meta tags for seo -->
+    <title>Apollo 24/7</title>
+    <meta
+      name="description"
+      content="Find and consult with top general physicians and internal medicine specialists online at Apollo 24/7 clone."
+    />
+    <meta
+      name="keywords"
+      content="Apollo, doctor consultation, online doctor, general physician, internal medicine"
+    />
+    <meta name="author" content="Sidharth Thakur" />
+
+    <!--Open Graph Meta (for social sharing) -->
+    <meta
+      property="og:title"
+      content="Consult General Physicians Online - Apollo Clone"
+    />
+    <meta
+      property="og:description"
+      content="Find experienced doctors and book online consultations instantly."
+    />
+    <meta property="og:image" content="Capture.png" />
+    <meta property="og:type" content="website" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <span>
+        <img src="Capture.png" width="70" alt="Apollo logo" />
+        <label for="detect">📍</label>
+        <select id="detect" required>
+          <option value="" disabled selected>Select location</option>
+        </select>
+        <input
+          type="text"
+          placeholder="Search Doctors, Specialities, Conditions etc."
+        />
+      </span>
+      <button id="login "><a href="#">Log in</a></button>
+    </header>
+    <hr />
+    <main>
+      <div class="main">
+        <nav aria-label="Main Site Links">
+          <a href="BuyMedicine.html">Buy medicine</a>
+          <a href="#find_Doctors">Find Doctors</a>
+          <a href="#lab_test">Lab Test</a>
+          <a href="#cirlce_memberships">Circle Membership</a>
+          <a href="#health_record">Health Record</a>
+          <a href="#diabetes_reversal">Deabetes Reversal</a>
+          <a href="#buy_insurance">Buy Insurance</a>
+        </nav>
+      </div>
+      <div>
+        <p
+          id="interlinking"
+          calss="interlink"
+          area-label="Webiste interlinking"
+        >
+          Home >Doctors >General Physicians
+        </p>
+      </div>
+
+      <span>
+        <h1>Consult General Physicians Online-Internal Medicine Specialists</h1>
+      </span>
+      <section>
+        <span id="filter1" class="filters"
+          ><h2>Filters</h2>
+          <button><h3>Show Doctors near me</h3></button>
+        </span>
+      </section>
+      <section id="pagination">
+        <!-- Pagination buttons yaha dynamically insert honge -->
+      </section>
+      <section
+        id="doc"
+        area-label="List of doctors available for consultations"
+      >
+        <ul id="doctors-container">
+          <!-- Doctor cards inserted dynamically here -->
+        </ul>
+      </section>
+    </main>
+
+    <footer><p>&copy; 2025 sidharth thakur.</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

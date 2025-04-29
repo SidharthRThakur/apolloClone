@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Dr. Aditi Shah",
+    "speciality": "General Physician",
+    "experience": "5 years",
+    "qualification": "MBBS",
+    "fees": 300,
+    "image": "doc1.png"
+  },
+  {
+    "name": "Dr. Vivek Nair",
+    "speciality": "Cardiologist",
+    "experience": "12 years",
+    "qualification": "MD, DM (Cardiology)",
+    "fees": 750,
+    "image": "doc3.png"
+  },
+  {
+    "name": "Dr. Kavita Desai",
+    "speciality": "Dermatologist",
+    "experience": "8 years",
+    "qualification": "MD (Dermatology)",
+    "fees": 400,
+    "image": "doc1.png"
+  },
+  {
+    "name": "Dr. Rishabh Mehta",
+    "speciality": "Neurologist",
+    "experience": "10 years",
+    "qualification": "DM (Neurology)",
+    "fees": 650,
+    "image": "doc3.png"
+  },
+  {
+    "name": "Dr. Simran Kaur",
+    "speciality": "Pediatrician",
+    "experience": "6 years",
+    "qualification": "MD (Pediatrics)",
+    "fees": 350,
+    "image": "doc1.png"
+  },
+  {
+    "name": "Dr. Prakash Joshi",
+    "speciality": "Orthopedic Surgeon",
+    "experience": "14 years",
+    "qualification": "MS (Orthopedics)",
+    "fees": 800,
+    "image": "doc3.png"
+  },
+  {
+    "name": "Dr. Nisha Patel",
+    "speciality": "Psychiatrist",
+    "experience": "7 years",
+    "qualification": "MD (Psychiatry)",
+    "fees": 500,
+    "image": "doc1.png"
+  },
+  {
+    "name": "Dr. Aditya Rao",
+    "speciality": "Pulmonologist",
+    "experience": "11 years",
+    "qualification": "DM (Pulmonology)",
+    "fees": 600,
+    "image": "doc3.png"
+  },
+  {
+    "name": "Dr. Manisha Yadav",
+    "speciality": "Gynecologist",
+    "experience": "9 years",
+    "qualification": "MD (Obstetrics & Gynecology)",
+    "fees": 450,
+    "image": "doc1.png"
+  },
+  {
+    "name": "Dr. Kunal Sen",
+    "speciality": "ENT Specialist",
+    "experience": "8 years",
+    "qualification": "MS (ENT)",
+    "fees": 420,
+    "image": "doc3.png"
+  }
+]
