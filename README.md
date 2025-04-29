@@ -1,7 +1,3 @@
-I can generate a **README.md** file for your project, but I can't directly upload it to GitHub. However, I can guide you on how to do that! Here's your README:
-
----
-
 # Apollo 24/7 Clone - Doctor Consultation Web App
 
 ## 📌 Project Overview
